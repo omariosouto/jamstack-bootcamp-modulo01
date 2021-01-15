@@ -68,11 +68,13 @@ Text.defaultProps = {
 ```
 
 - Termina a explicação com PropTypes
+  - Fazer o install da lib
+  - Não tem tipos, componentes precisam de coisas específicas e "contratos"
 
 ```js
 Text.propTypes = {
   children: PropTypes.node.isRequired,
   tag: PropTypes.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'p', 'li', 'a', 'span']),
-  variant: PropTypes.oneOf(['paragraph1', 'subTitle']),
+  variant: PropTypes.oneOf(['paragraph1', 'smallestException']),
 };
 ```
