@@ -20,8 +20,16 @@ export const Button = styled.button`
   opacity: 1;
   transition: opacity ${({ theme }) => theme.transition};
   border-radius: ${({ theme }) => theme.borderRadius};
-  
-  ${TextStyleVariants.smallestException}
+
+  ${breakpointsMedia({
+    xs: css`
+      ${TextStyleVariants.smallestException}
+    `,
+    md: css`
+      padding: 12px 43px;
+      ${TextStyleVariants.paragraph1}
+    `,
+  })}
 
   ${({ ghost }) => (ghost ? ButtonGhost : ButtonDefault)}
   &:hover,
