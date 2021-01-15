@@ -77,13 +77,3 @@ export default function Menu() {
 
 - Gist com o final da aula:
   - https://gist.github.com/omariosouto/2167711d7107dc70690eb2d0852e6f63
-
-
-<!-- - import/export [alura+/artigo]
-- Props
-- Componentes
-- CSS Modules e pq usar Styled Components
-- import styles from './index.module.css';
-- Styled Components
-- Base de React + Styled Components p/ CSS
-- Foca na versão Desktop -->
