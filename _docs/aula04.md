@@ -1,5 +1,7 @@
 # Aula 04: O Reset CSS com Styled Components
 
+- Gist da aula: https://gist.github.com/omariosouto/c957a15834560ae86698d519c3569b04
+
 - Por que precisamos de um reset de CSS?
   - https://necolas.github.io/normalize.css/
 
