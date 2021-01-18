@@ -1,5 +1,6 @@
 # Aula 02: Criando Component <Menu /> com Styled Components
 
+
 - O que vamos construir? 
   - https://www.figma.com/file/Veefm1pjkeTFcJC7BUqHge/Instalura?node-id=0%3A1
 
